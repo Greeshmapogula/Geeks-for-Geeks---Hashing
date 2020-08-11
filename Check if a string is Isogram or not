@@ -1,0 +1,6 @@
+def isIsogram(s):
+    #Your code here
+    for i in s:
+        if(s.count(i)>=2):
+            return False
+    return True
